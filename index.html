@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Map Demo</title>
+    <style>
+      body {
+        font-family:Arial, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20PX;
+      }
+    </style>
+  </head>>
+</body>
+
+<h1>Interactive World Map</h1>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/World_map_blank_without_borders.svg/1280px-World_map_blank_without_borders.svg.png" alt="World Map" usemap="#worldmap">
+
+<map name="worldmap">
+  <!-- North America -->
+  <area shape="poly" coords="170,30,140,60,140,90,190,120,230,80"
+
+  <area shape="poly" coords="170,140,130,180,170,220,220,180" href="https://en.wikipedia.org/wiki/South_America" alt="South America">
+
+  <!-- Europe -->
+  <area shape="poly" coords="370,60,330,100,330,140,380,170,420,130" href="https://en.wikipedia.org/wiki/Europe" alt="Europe">
+
+  <!-- Africa -->
+  <area shape="poly" coords="430,200,400,230,430,260,470,230" href="https://en.wikipedia.org/wiki/Africa" alt="Africa">
+
+  <!-- Asia -->
+  <area shape="poly" coords="550,90,510,130,550,170,600,130" href="https://en.wikipedia.org/wiki/Asia" alt="Asia">
+
+  <!-- Australia -->
+  <area shape="poly" coords="770,320,730,360,770,400,820,360" href="https://en.wikipedia.org/wiki/Australia" alt="Australia">
+</map>
+
+</body>
+</html>
